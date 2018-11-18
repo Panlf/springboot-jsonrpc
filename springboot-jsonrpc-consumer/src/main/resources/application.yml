@@ -1,0 +1,13 @@
+server:
+  servlet:
+    context-path: /consumer
+  port: 8088
+
+logging:
+  level:
+    com.googlecode.jsonrpc4j: debug  
+
+rpc:
+  client:
+    url:  http://localhost:8082/provider/
+    basePackage: com.plf.jsonrpc.rpc

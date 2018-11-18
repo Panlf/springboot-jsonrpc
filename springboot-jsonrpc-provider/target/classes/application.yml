@@ -1,0 +1,8 @@
+server:
+  servlet:
+    context-path: /provider
+  port: 8082
+
+logging:
+  level:
+    com.googlecode.jsonrpc4j: debug  
